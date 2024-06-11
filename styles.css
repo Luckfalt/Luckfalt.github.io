@@ -30,6 +30,7 @@ a:visited {
 
 a:hover {
   color: gray;
+  text-decoration: none;
 }
 
 /*General Responsive Stuff*/
