@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
   font-size: 16px;
+  text-align: center;
 }
 
 body {
@@ -112,10 +113,10 @@ header img {
   width: 100%;
 }
 
-.models h2{
+.models h2 {
   font-family: "Major Mono Display", monospace;
   font-weight: lighter;
-  font-size: 1.5vw;
+  font-size: 1.7vw;
   text-shadow: 1px 2px 5px black;
 }
 
@@ -159,6 +160,26 @@ header img {
     height: 45vh;
   }
 
+}
+
+/*Team Section*/
+
+.team {
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+  text-align: center;
+  min-height: auto;
+  flex:1;
+}
+
+.team figure {
+  margin: 1%;
+}
+
+.team img {
+  height: 30vw;
+  padding-bottom: 2%;
 }
 
 /*WTB Section*/
